@@ -1,0 +1,62 @@
+{
+  "name": "nodejs_tool_project",
+  "version": "1.0.0",
+  "description": "nodejs_tool_project 使用 nodejs 自动化处理一些事情",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js",
+    "start_svg_tool":"node src/test/test_rich_svg_data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribuluo000/nodejs_tool_project.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tool"
+  ],
+  "author": "ribuluo000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ribuluo000/nodejs_tool_project/issues"
+  },
+  "homepage": "https://github.com/ribuluo000/nodejs_tool_project#readme",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "file-stream-rotator": "^0.2.0",
+    "hanzi_to_pinyin": "^0.1.3",
+    "hashids": "^1.1.4",
+    "jade": "~1.11.0",
+    "log4js": "^2.5.2",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.1",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.0",
+    "node-uuid": "^1.4.8",
+    "pinyinlite": "^1.2.1",
+    "serve-favicon": "~2.4.5",
+    "urlencode": "^1.1.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "babel-polyfill": "^6.26.0"
+  }
+}
